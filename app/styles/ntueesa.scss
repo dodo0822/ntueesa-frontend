@@ -1,0 +1,43 @@
+body {
+	padding-top: 50px;
+}
+
+.well-white {
+	padding: 20px;
+	background: #EEE;
+	border: 1px #CCC solid;
+	border-radius: 7px;
+	color: #333;
+}
+
+.well-white a {
+	color: #666;
+}
+
+.well-white a:hover {
+	color: #999;
+}
+
+.well-light {
+	padding: 10px;
+	background: #BFC7CA;
+	border: 1px #CCC solid;
+	border-radius: 4px;
+	color: #000;
+}
+
+.well-left-1 {
+	padding: 10px;
+	background: #CFE2F3;
+	border: 1px #777 solid;
+	border-radius: 4px;
+}
+
+.vertical-align {
+	display: flex;
+	align-items: center;
+}
+
+.col-small {
+	max-width: 300px;
+}
