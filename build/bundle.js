@@ -8201,7 +8201,8 @@
 	var $ = __webpack_require__(382);
 
 	$(function () {
-		$('.well-left-1').css('height', $('.well-right-1').css('height'));
+		$('#well-left-1').css('height', $('#well-right-1').height() - 15);
+		$('#well-left-2').css('height', $('#well-right-2').height() - 15);
 	});
 
 /***/ },
@@ -8239,7 +8240,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  padding-top: 50px; }\n\n.well-white {\n  padding: 20px;\n  background: #EEE;\n  border: 1px #CCC solid;\n  border-radius: 7px;\n  color: #333; }\n\n.well-white a {\n  color: #666; }\n\n.well-white a:hover {\n  color: #999; }\n\n.well-light {\n  padding: 10px;\n  background: #BFC7CA;\n  border: 1px #CCC solid;\n  border-radius: 4px;\n  color: #000; }\n\n.well-left-1 {\n  padding: 10px;\n  background: #CFE2F3;\n  border: 1px #777 solid;\n  border-radius: 4px; }\n\n.vertical-align {\n  display: flex;\n  align-items: center; }\n\n.col-small {\n  max-width: 300px; }\n", ""]);
+	exports.push([module.id, "body {\n  padding-top: 50px; }\n\n.well-white {\n  padding: 20px;\n  background: #EEE;\n  border: 1px #CCC solid;\n  border-radius: 7px;\n  color: #333; }\n\n.well-white a {\n  color: #666; }\n\n.well-white a:hover {\n  color: #999; }\n\n.well-light {\n  padding: 10px;\n  background: #BFC7CA;\n  border: 1px #CCC solid;\n  border-radius: 4px;\n  color: #000; }\n\n#well-left-1 {\n  padding: 10px;\n  background: #CFE2F3;\n  border: 1px #777 solid;\n  border-radius: 4px; }\n\n#well-left-2 {\n  padding: 10px;\n  background: #F4CCCC;\n  border: 1px #777 solid;\n  border-radius: 4px;\n  margin-top: 10px; }\n\n#well-left-3 {\n  padding: 10px;\n  background: #D9EAD3;\n  border: 1px #777 solid;\n  border-radius: 4px;\n  margin-top: 10px; }\n\n.vertical-align {\n  display: flex;\n  align-items: center; }\n\n.col-small {\n  max-width: 300px; }\n", ""]);
 
 	// exports
 
