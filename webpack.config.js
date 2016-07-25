@@ -19,6 +19,10 @@ var plugins = [ ];
 			from: 'index.html',
 			to: '../build/'
 		}]));
+		plugins.push(new webpack.ProvidePlugin({
+        	$: 'jquery',
+        	jQuery: 'jquery'
+        }));
 		output = {
 			path: BUILD,
 			filename: 'bundle.js'
@@ -70,6 +74,10 @@ module.exports = {
 			{
 				test: /\.(ttf|eot)$/,
 				loader: 'file'
+			},
+			{
+				test: /\.html$/,
+				loader: 'raw'
 			}
 		]
 	},

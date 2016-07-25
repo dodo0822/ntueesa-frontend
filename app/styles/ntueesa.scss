@@ -1,5 +1,23 @@
+@media (min-width: 480px) {
+	.nav {
+		font-size: 1.2em;
+	}
+
+	p {
+		font-size: 1.15em;
+	}
+
+	#course-table {
+		font-size: 1.2em;
+	}
+}
+
 body {
 	padding-top: 50px;
+}
+
+.navbar-brand {
+	color: #fff !important;
 }
 
 .well-white {
@@ -55,5 +73,5 @@ body {
 }
 
 .col-small {
-	max-width: 300px;
+	max-width: 350px;
 }
