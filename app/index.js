@@ -21,12 +21,12 @@ r.add('', function() {
 	$('#page').html(tplHome);
 	$('#well-left-1').css('height', $('#well-right-1').height() - 15);
 	$('#well-left-2').css('height', $('#well-right-2').height() - 15);
-	$('#well-left-3').css('height', $('#well-right-3').height() - 15);
+	//$('#well-left-3').css('height', $('#well-right-3').height() - 15);
 
 	$(window).resize(function(){
 		$('#well-left-1').css('height', $('#well-right-1').height() - 15);
 		$('#well-left-2').css('height', $('#well-right-2').height() - 15);
-		$('#well-left-3').css('height', $('#well-right-3').height() - 15);
+		//$('#well-left-3').css('height', $('#well-right-3').height() - 15);
 	});
 });
 
