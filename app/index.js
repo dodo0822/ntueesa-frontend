@@ -8,6 +8,8 @@ require('bootstrap');
 var tplHome = require('./templates/links.html');
 var tplContact = require('./templates/contact.html');
 
+//var dataCourses = require('./data/courses.json');
+
 var Rlite = require('rlite-router');
 var r = new Rlite();
 
