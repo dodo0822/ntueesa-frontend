@@ -67,6 +67,7 @@ r.add('', function() {
 r.add('contact', function() {
 	$('#nav-contact').addClass('active');
 	$('#page').html(tplContact);
+	$('#eesa-logo').attr('src', require('./favicon.png')).css('width', 200);
 });
 
 function processHash() {
