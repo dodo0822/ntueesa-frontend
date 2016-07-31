@@ -18,6 +18,9 @@ var plugins = [ ];
 		plugins.push(new CopyWebpackPlugin([{
 			from: 'index.html',
 			to: '../build/'
+		},{
+			from: 'favicon.ico',
+			to: '../build/'
 		}]));
 		plugins.push(new webpack.ProvidePlugin({
         	$: 'jquery',
